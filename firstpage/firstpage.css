@@ -1,0 +1,248 @@
+/************************block start***************************************************************/
+.home {
+    background-color: white;
+}
+
+body {
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2%;
+
+}
+
+
+header .header img {
+    width: 400px;
+    display: flex;
+}
+
+.header-f {
+    background-color: rgb(199, 0, 0);
+    height: 12px;
+    left: 0;
+    right: 0;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: flex;
+    background-color: #9C3F40;
+    width: 450px;
+    height: 80px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.flex-container>div {
+    color: white;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mail {
+    font-size: 25px;
+}
+
+
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem 2%;
+    width: 90%;
+    margin-left: 250px;
+}
+
+
+
+.header-text .heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0.5rem;
+
+}
+
+.header-text .sub-heading {
+    font-weight: 400;
+    color: #d11111;
+    margin-top: 0;
+    margin-left: 20px;
+
+
+}
+
+
+.home.leftside {
+    display: grid;
+    flex-direction: column;
+    background-color: #dee9ec;
+    width: 20%;
+    padding: .5rem 0.5%;
+}
+
+.box-container {
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 1%;
+    width: 30%;
+    gap: 1rem;
+    color: black;
+
+
+}
+
+.box .btn1 {
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    padding-top: 2px;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.box .btn2 {
+    background-color: rgb(187, 195, 201);
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    padding-top: 2px;
+    font-size: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .btn2:hover {
+    background-color: rgb(109, 113, 116);
+
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.jsCalendar {
+    padding: 1.5rem 1%;
+}
+
+.box .btn3 {
+    background-color: rgb(187, 195, 201);
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    padding-top: 2px;
+    font-size: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+}
+
+
+.home .leftside {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 0px;
+    margin-left: 45px;
+}
+
+/******************************** block end******************************************************/
+.rightside {
+    margin-top: 7px;
+    background-color: rgb(208, 210, 211);
+    width: 100%;
+    border-radius: 1px solid black;
+    border-radius: 35px;
+    height: 700px;
+    margin-top: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.home .rightside {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding-left: 10px;
+
+}
+
+.leftright {
+    width: 100%;
+    float: left;
+    display: flex;
+    gap: 5px;
+    border-radius: 35px;
+    height: 97%;
+
+}
+
+.leftright .content {
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    gap: 20px;
+    border-radius: 35px;
+    border: 1px solid rgb(151, 146, 146);
+    margin: 1%;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 0px;
+}
+
+.right .rightup .content {
+    width: 93%;
+    background-color: white;
+    height: 350px;
+    border-radius: 35px;
+    border: 1px solid rgb(167, 163, 163);
+    margin-right: 400px;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 0px;
+    border: 1px solid rgb(134, 132, 132);
+}
+
+.right .rightbottom .content {
+    background-color: white;
+    width: 93%;
+    height: 320px;
+    border-radius: 35px;
+    border: 1px solid rgb(167, 163, 163);
+    margin-right: 400px;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 0px;
+    border: 1px solid rgb(134, 132, 132);
+}
